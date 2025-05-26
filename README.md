@@ -93,6 +93,16 @@ JSON de ejemplo(response. Token recortado):
 }
 ```
 
+##🌐 Pruebas Con Postman
+En la carpeta **docs**, existe un export de la pruebas realizadas con postman (**api-randstad-test-users.json**)  
+Todos tienes la estructura: http://localhost:8082/api-randstad/users  
+Para PUT, GET, DELETE, antes de ejecutarse se debe agregar el token, por eso al ver el header mostrara algo asi:  
+
+key  : Authorization  
+value: Bearer TOKEN_ID  
+
+Donde TOKEN_ID, se debe reemplazar por alguno generado.
+
 
 ##🧪 Pruebas unitarias con JUnit + Mcokito
 Para ejecutar las pruebas:
